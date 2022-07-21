@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+	background-color: #111c24;
+	font-family: 'Courier Prime', monospace;
+}
+
+.profileImage {
+	border-radius: 50%;
+}
+.profileImageContainer {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	height: 200px;
+
+}
+
+.nameContainer {
+	display: block;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	color: #a3a4a7;
+	font-size: 1.5rem;
+	margin: 20px;
+}
+
+a {
+	width: 300px;
+	display: block;
+	align-content: center;
+	justify-content: center;
+	background-color: #7e6652;
+	text-decoration: none;
+	text-align: center;
+	color: #a3a4a7;
+	font-size: 1.5rem;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 40px;
+
+}
+
+a:hover	{
+	transform: scale(1.02);
+}
